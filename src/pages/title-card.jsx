@@ -9,7 +9,7 @@ const title_card = (props) => {
     return(
         <div className="grid grid-cols-4 gap-4">
             {infos.map((Info) => (
-                <div className="flex flex-col border-solid border-2 border-indigo-600 px-10 py-10 bg-white rounded-lg ml-2 mr-2 items-center shadow-lg shadow-indigo-900" key={Info.id}>
+                <div className="flex flex-col border-solid border-2 border-indigo-600 px-10 py-10 bg-white rounded-lg items-center shadow-lg shadow-indigo-900" key={Info.id}>
                     <div className="text-center text-base">
                         <img className="inline-block" src={Logo} />
                         <div>
