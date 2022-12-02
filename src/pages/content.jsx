@@ -16,7 +16,7 @@ const content = () => {
     return(
         
         <div className="relative text-center">
-            <div className="text-sm sm:text-2 lg:text-xl4 md:text-xl3 absolute text-center w-screen mb-8 text-white"> Test Info </div>
+            <div className="text-sm sm:text-2 lg:text-xl4 md:text-xl3 absolute text-center w-screen text-white"> Test Info </div>
             <div className="flex flex-wrap items-center justify-center h-[95.7vh] bg-gradient-to-r from-cyan-500 to-blue-500">
             <Title_card Info={Info} />
             </div>

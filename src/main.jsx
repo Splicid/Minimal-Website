@@ -5,6 +5,7 @@ import Main from './pages/main'
 import Nav from './pages/navbar'
 import Content from './pages/content'
 import Experience from './pages/experience'
+import Footer from './pages/footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Content />
     <Experience />
     <Main />
+    <Footer />
   </React.StrictMode>
 )
