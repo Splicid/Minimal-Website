@@ -7,9 +7,10 @@ const title_card = (props) => {
     console.log(infos)
 
     return(
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mt-8">
             {infos.map((Info) => (
-                <div className="flex flex-col border-solid border-2 border-indigo-600 px-10 py-10 bg-white rounded-lg items-center shadow-lg shadow-indigo-900" key={Info.id}>
+                <div className="flex flex-wrap flex-col border-solid border-2 border-indigo-600 lg:p-10 md:p-7 bg-white rounded-lg items-center 
+                shadow-lg shadow-indigo-900 sm:p-2" key={Info.id}>
                     <div className="text-center text-base">
                         <img className="inline-block" src={Logo} />
                         <div>
